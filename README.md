@@ -96,4 +96,4 @@ B는 개체명이 시작되는 부분, I는 개체명의 내부 부분, O는 개
 
 4. Predictions
 
-   `ner_module.py`의 `ner_predict(text)`를 사용하여 `text`에 기사 전문을 넣어 출력값을 `word`, `label`, `desc`의 형태로 추출할 수 있다.
+   `ner_module.py`의 `ner_predict(text)`를 사용하여 `text`에 기사 전문을 넣어 출력값을 `word`, `label`, `desc` json의 list 형태로 추출할 수 있다.
