@@ -85,9 +85,9 @@ B는 개체명이 시작되는 부분, I는 개체명의 내부 부분, O는 개
 
     ```
     python train.py -s TRAIN_FILE -o MODEL_NAME
-    (ex. python train.py -s dataset/NXEL2102203310.json -o kpfbert-ner)
+    (ex. python train.py -s dataset/NXEL2102203310.json -o kpf-bert-ner)
     ```
-    - `kpfbert-ner` : KPF-BERT-NER 모델의 저장 위치
+    - `kpf-bert-ner` : KPF-BERT-NER 모델의 저장 위치
     - `train.py` : 학습 관련 코드. 
     - 실행에 필요한 파일 : label.py, config.py, Dataset.py, kpfbert 폴더가 있어야함.
     - input : dataset, model name
