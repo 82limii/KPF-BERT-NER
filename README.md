@@ -16,6 +16,8 @@
 한국언론진흥재단이 개발한 kpf-BERT를 기반으로 classification layer를 추가하여 kpf-BERT-ner 모델을 개발한다. 
 BERT는 대량의 데이터를 사전학습에 사용한다. 
 kpf-BERT는 신문기사에 특화된 BERT 모델로 언론, 방송 매체에 강인한 모델이다.
+
+
 ![img](https://user-images.githubusercontent.com/87846939/221456330-a2683b07-b48b-496f-9f81-caa0147aef2b.png)
 
 BERT 모델의 학습을 위해서는 문장에서 토큰을 추출하는 과정이 필요하다. 
